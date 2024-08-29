@@ -1,0 +1,18 @@
+.yellow{
+    color: yellow;
+}
+#greycol{
+    color: grey;
+}
+:nth-child(7n){
+    color: green;
+}
+:nth-child(5n){
+    color: red;
+}
+:nth-child(-n){
+    color: pink;
+}
+.text-box > :first-child{
+    color: pink;
+}
